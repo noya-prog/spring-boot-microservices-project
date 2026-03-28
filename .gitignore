@@ -1,0 +1,19 @@
+# IDE
+.idea/
+
+# Java build
+target/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# Docker / Database volumes
+volume-data/
+**/volume-data/
+*.sock
