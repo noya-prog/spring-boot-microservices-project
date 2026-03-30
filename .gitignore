@@ -17,3 +17,20 @@ node_modules/
 volume-data/
 **/volume-data/
 *.sock
+
+# Keys and certificates
+*.pem
+*.key
+*.crt
+
+# MySQL data
+mysql_data/
+data/
+
+# MongoDB
+WiredTiger
+WiredTiger.lock
+WiredTiger.turtle
+WiredTiger.wt
+WiredTigerHS.wt
+.mongodb/
