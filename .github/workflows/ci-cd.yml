@@ -67,7 +67,7 @@ jobs:
           cache: maven
 
       - name: Build JAR - ${{ matrix.service }}
-        run: mvn clean package -DskipTests --no-transfer-progress
+        run: mvn clean package -DskipTests -Dmaven.test.skip=true --no-transfer-progress
         working-directory: ./${{ matrix.service }}
 
       - name: Log in to Docker Hub
