@@ -36,7 +36,7 @@ jobs:
           cache: maven
 
       - name: Build and test ${{ matrix.service }}
-        run: mvn clean package -DskipTests --no-transfer-progress
+        run: mvn clean package -Dmaven.test.skip=true --no-transfer-progress
         working-directory: ./${{ matrix.service }}
 
   # ── JOB 2: BUILD & PUSH DOCKER IMAGES ────────────────────────────
