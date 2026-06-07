@@ -34,6 +34,7 @@ A full-stack e-commerce application built with a microservices architecture usin
                          │     Kafka       │
                          └─────────────────┘
 ```
+<img width="1264" height="842" alt="image_c561de74" src="https://github.com/user-attachments/assets/4e1b16e1-0151-490e-9db2-723196111fbb" />
 
 ---
 
